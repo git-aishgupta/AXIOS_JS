@@ -1,0 +1,18 @@
+RUN -
+Open with Live Server
+
+Runs at port - 
+https://localhost:8080
+
+Rules - 
+1. Always format the code before commiting.
+2. Close resources you have opened. For example - 
+dbConnection.close()
+3. Naming Convention - CamelCase
+4. Remove unused variables.
+
+Clean code guidelines -
+1. Always use constants for hard-coded values. For example - 
+HELLO_TEAM = "Hello Team!"
+2. Class Name - DbConnection - initials capital
+3. Function Name - getTodos - first initial small, rest capital
